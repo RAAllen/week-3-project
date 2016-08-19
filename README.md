@@ -8,7 +8,7 @@
 
 * _In order to view this project, please open the index.html file in your web browser_
 * _In order to view the links in this project you must have a connection to the internet_
-* _There is a publicly viewable version of this program available online at RAAllen.github.io/week-3-project_
+* _There is a publicly viewable version of this program available online at <RAAllen.github.io/week-3-project>_
 * _In order to edit this program you should have a text editor such as atom or sublime_
 
 ## Program Specifications
