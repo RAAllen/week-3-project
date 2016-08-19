@@ -1,0 +1,49 @@
+body {
+  background-color: #ff6600;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-right: 25px;
+}
+
+#headline {
+  border: white;
+  border-width: thick;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: ariel, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.list-group {
+  min-width: 200px;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button {
+  margin-top: 25px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+#results {
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+}

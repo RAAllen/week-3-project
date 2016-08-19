@@ -12,27 +12,39 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="media">
-        <h1>Ping Pong<h1>
+    <div class="container-fluid text-center">
+      <div id="top" class="row">
+        <div class="col-sm-4">
+          <img src="img/paddle.png" alt="A picture of a ping pong paddle." class="img-rounded">
+        </div>
+        <div id="headline" class="col-sm-8">
+          <h1>Play Ping Pong!<h1>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-sm-4">
-
+          <ul class="list-group">
+            <a href="" class="list-group-item disabled">Ping Pong Links</a>
+            <a href="https://en.wikipedia.org/wiki/Table_tennis" class="list-group-item list-group-item-action">Ping-Pong-o-pedia</a>
+            <a href="http://www.meetup.com/Philadelphia-Ping-Pong-Club/" class="list-group-item list-group-item-action">Philly Pongers</a>
+            <a href="http://trolleycarttc.com/" class="list-group-item list-group-item-action">Philly Pingers</a>
+            <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=ping%20pong&mie=oly%2C%5B%22%2Fm%2F07jbh%22%2C5%2C%22o%22%2C1%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C0%5D" class="list-group-item list-group-item-action">Pong Playoffs</a>
+            <a href="https://www.yelp.com/search?find_desc=Ping+Pong+Bars&find_loc=Philadelphia%2C+PA" class="list-group-item list-group-item-action">Pong Pubs</a>
+          </ul>
         </div>
 
         <div class="col-sm-8">
           <form id="userNumber">
-            <h3>Enter a number to play:<h3>
-            <div class="form-control">
-              <input type="numbers" class="form-control center-block" id="userInput" placeholder="Enter a number">
+            <h3>Enter a number to play to:</h3>
+            <div class="form-group">
+              <input type="numbers" class="form-control center-block" id="userInput" placeholder="Enter a number...">
             </div>
-            <button type="submit" class="btn btn-success btn-lg">Submit your number!</button>
+            <button type="submit" class="btn btn-danger btn-lg">Play a game!</button>
           </form>
 
-          <div>
-            <ul class="results">
+          <div class="table">
+            <ul id="results">
             </ul>
           </div>
         </div>

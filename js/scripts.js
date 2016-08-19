@@ -1,20 +1,20 @@
 $(document).ready(function() {
   $("#userNumber").submit(function(event) {
     event.preventDefault();
+    $("#results").empty();
     var userValue = parseInt($("input#userInput").val());
-    
     for (i=1; i<=userValue; i++) {
       if (i % 15 === 0) {
-        $(".results").prepend("<li>pingpong</li>")
+        $("#results").append("<li>pingpong</li>")
       }
       else if (i % 5 === 0) {
-        $(".results").prepend("<li>pong</li>")
+        $("#results").append("<li>pong</li>")
       }
       else if (i % 3 === 0) {
-        $(".results").prepend("<li>ping</li>")
+        $("#results").append("<li>ping</li>")
       }
       else {
-        $(".results").prepend("<li>"+i+"</li>")
+        $("#results").append("<li>"+i+"</li>")
       }
     }
   });
