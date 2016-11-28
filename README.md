@@ -14,17 +14,17 @@
 ## Program Specifications
 
 * _This program will count up from 1 to the user specified number._
-    *Example Input: 2.
-    *Example Output: 1, 2.
+    * Example Input: 2.
+    * Example Output: 1, 2.
 * _This program will return a ping in place of any number divisible by 3._
-    *Example Input: 3.
-    *Example Output: 1, 2, ping.
+    * Example Input: 3.
+    * Example Output: 1, 2, ping.
 * _This program will return a ping in place of any number divisible by 5._
-    *Example Input: 5.
-    *Example Output: 1, 2, ping, 4, pong.
+    * Example Input: 5.
+    * Example Output: 1, 2, ping, 4, pong.
 * _This program will return a ping in place of any number divisible by 15._
-    *Example Input: 15.
-    *Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong.
+    * Example Input: 15.
+    * Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong.
 
 ## Support and Contact Details
 
