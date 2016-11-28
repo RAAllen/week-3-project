@@ -1,6 +1,6 @@
 # Week Three Project
 
-#### _This Ping Pong game is designed to both serve as a portfolio piece and fulfill the week two project requirements. August 19, 2016_
+#### _This Ping Pong game is designed to return a string of ascending numbers with numbers divisble by three or five replaced by words. August 19, 2016_
 
 #### By _**Rebecca Allen**_
 
